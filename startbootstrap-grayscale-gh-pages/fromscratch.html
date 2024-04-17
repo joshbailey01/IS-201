@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Basic HTML Page</title>
+    <link rel="stylesheet" href="css/fromscratch.css">
+</head>
+<body>
+    <header>
+        <h1>Movies</h1>
+        <nav>
+            <ul>
+                <li><a href="#top10">Home</a></li>
+                <li><a href="#resume">My Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="top10" id="top10">
+            <div class="posters">
+                <img class="movieposter" src="assets/img/interstellar.jpg" />
+                <img class="movieposter" src="assets/img/shawshank.jpg" />
+                <img class="movieposter" src="assets/img/dune2.jpg" />
+            </div>
+            
+            <h2>Top 10 Movies According to Josh</h2>
+            <ul>
+                <li>Interstellar</li>
+                <li>The Shawshank Redemption</li>
+                <li>Dune Part 2</li>
+                <li>Star Wars: The Empire Strikes Back</li>
+                <li>There Will be Blood</li>
+                <li>Gladiator</li>
+                <li>Fight Club</li>
+                <li>The Batman</li>
+                <li>Good Will Hunting</li>
+                <li>Blade Runner 2049</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Dune 2 is the most significant movie to come out of this decade.</h2>
+            <p>This is a good video that explains why I think that.</p>
+            <iframe width="718" height="404" src="https://www.youtube.com/embed/bSmZ5bD7aqk" title="&#39;Dune: Part Two&#39; is INSANE (Review)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Here's a cool visualation of IMDB's top 10</h2>
+                <div class='tableauPlaceholder' id='viz1713393388660' style='position: relative'>
+                    <noscript>
+                        <a href='#'>
+                            <img alt='IMDB_TOP10 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;IM&#47;IMDb_TOP_10_Movies&#47;IMDB_TOP10&#47;1_rss.png' style='border: none' />
+                        </a>
+                    </noscript>
+                    <object class='tableauViz'  style='display:none;' >
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                        <param name='embed_code_version' value='3' /> 
+                        <param name='site_root' value='' />
+                        <param name='name' value='IMDb_TOP_10_Movies&#47;IMDB_TOP10' />
+                        <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;IM&#47;IMDb_TOP_10_Movies&#47;IMDB_TOP10&#47;1.png' /> 
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en-US' />
+                        <param name='filter' value='_gl=1*1aos77d*_ga*NDAzNTAwNDI0LjE3MTA5MDY3NTc.*_ga_8YLN0SNXVS*MTcxMzM5MzEwNC4yLjAuMTcxMzM5MzEwNC4wLjAuMA..' />
+                    </object>
+                </div>                
+                <script type='text/javascript'>                    
+                    var divElement = document.getElementById('viz1713393388660');                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='1300px';vizElement.style.height='1527px';                    
+                    var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
+        </section>
+
+        <section class="bottom" id="resume">
+            <h2>More About Me</h2>
+            <div>
+                <a class="link" href="">Click here to visit my resume page!</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
